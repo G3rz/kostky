@@ -34,11 +34,11 @@ body {
 }
 
 main {
-    @apply bg-transparent flex flex-col place-content-between h-screen
+    @apply flex flex-col place-content-between h-screen max-w-xs mx-auto px-6
 }
 
 .dice {
-    @apply p-1 bg-orange-600 m-3 w-16 h-16
+    @apply p-1 bg-orange-600 m-2 w-16 h-16
 }
 
 .selected button{

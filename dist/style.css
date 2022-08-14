@@ -613,15 +613,19 @@ body {
 }
 
 main {
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   height: 100vh;
+  max-width: 20rem;
   flex-direction: column;
   place-content: space-between;
-  background-color: transparent;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .dice {
-  margin: 0.75rem;
+  margin: 0.5rem;
   height: 4rem;
   width: 4rem;
   --tw-bg-opacity: 1;
