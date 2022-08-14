@@ -34,7 +34,7 @@ body {
 }
 
 main {
-    @apply flex flex-col place-content-between h-screen max-w-xs mx-auto px-6
+    @apply flex flex-col place-content-between h-screen max-w-xs mx-auto p-8
 }
 
 .dice {
@@ -54,7 +54,7 @@ button {
 }
 
 table + button {
-    @apply text-3xl bg-red-700 m-5 p-8 hover:bg-red-800
+    @apply text-3xl bg-red-700 m-8 py-3  hover:bg-red-800
 }
 
 

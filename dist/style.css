@@ -620,8 +620,7 @@ main {
   max-width: 20rem;
   flex-direction: column;
   place-content: space-between;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding: 2rem;
 }
 
 .dice {
@@ -649,10 +648,11 @@ button {
 }
 
 table + button {
-  margin: 1.25rem;
+  margin: 2rem;
   --tw-bg-opacity: 1;
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
-  padding: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
