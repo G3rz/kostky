@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* animace */
+@keyframes shake {
+
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+/*---*/
+
+body {
+    @apply bg-sky-700 min-h-screen text-white font-semibold text-lg
+}
+
+main {
+    @apply bg-transparent flex flex-col place-content-between h-screen
+}
+
+.dice {
+    @apply p-1 bg-orange-600 m-3 w-16 h-16
+}
+
+.selected button{
+    @apply bg-orange-800
+}
+
+button {
+    @apply drop-shadow-lg
+}
+
+.output {
+    @apply text-3xl
+}
+
+table + button {
+    @apply text-3xl bg-red-700 m-5 p-8 hover:bg-red-800
+}
+
+
+.shake {
+    @apply animate-[shake_1s_ease-in-out_infinite]
+}
