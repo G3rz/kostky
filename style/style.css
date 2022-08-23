@@ -38,11 +38,11 @@ main {
 }
 
 .dice {
-    @apply p-1 bg-orange-600 m-1 w-16 h-16
+    @apply p-1 bg-orange-800 m-1 w-16 h-16
 }
 
 .selected button{
-    @apply bg-orange-800
+    @apply bg-orange-600
 }
 
 button {
