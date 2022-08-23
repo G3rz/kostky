@@ -1,4 +1,4 @@
-const jmenoCache = 'prevodnik';
+const jmenoCache = 'kostky';
 const souboryDoCache = [
     'index.html',
     'dist/style.css',
